@@ -8,11 +8,11 @@ The following code attempts to recreate an emailing service, which is being hand
 
 `GetRateLimitRule` : This method is a setter, it contains less logic, but it states the rules that should be applied for the type of messages that are wished to be sent. Calculating time in miliseconds, these are the rules:
 
-    :purple_circle: News: 2 Per minute
+:triangular_flag_on_post: News: 2 Per minute
 
-    :purple_circle: Status: 1 Per day
+:triangular_flag_on_post: Status: 1 Per day
 
-    :purple_circle: Marketing: 3 Per hour
+:triangular_flag_on_post: Marketing: 3 Per hour
 
 ## :atom: Gateway Class 
 This class initializes the process to send a message to the user. 
