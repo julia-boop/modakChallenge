@@ -1,8 +1,13 @@
 # Modak Challenge - Rate Limiting Service
 ### By Julia Cordero :hugs:
 
+
+
 > [!IMPORTANT]
-> The code is developed in Node.js, in order to execute de file, Node.js should be installed and the command `node Modak.js` should be run in the terminal situated in the same directory as the file Modak.js
+> The code is developed in Node.js, in order to execute the file, Node.js should be installed and the command `node Modak.js` should be run in the terminal situated in the same directory as the file Modak.js
+
+
+
 
 The following code attempts to recreate an emailing service, which is being handled by a rate limiting system to ensure that clients are not recieving an excessive amount of emails. In order to do this, I have created a `SendMessage` method within the `NotificationService` class which simulates this case. In the following lines I will proceed to explain how does each method works. 
 
